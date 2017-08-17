@@ -1,15 +1,22 @@
 # CRM APP OPEN SOURCE
 Little Customer Relationship Management
 
+
+Welcome to the Litle CRM!
+
+CRM APP is an Android open source , focused on making it easier to work with costumers, with this app you could manage the control of your orders, sales and repairs.
+
+
 You must add an user in loginUsers
 
-Example: 
+# Example User: 
 
 managerf.insertarUsuario("David Jimenez","admin","admin",0);
 
-License
 
 
+
+# Licence
 
 Copyright (c) 2017. David Zahid Jiménez Grez. All rights reserved.
 
