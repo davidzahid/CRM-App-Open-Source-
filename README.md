@@ -1,7 +1,11 @@
 # CRM APP OPEN SOURCE
 Little Customer Relationship Management
 
+You must add an user in loginUsers
 
+Example: 
+
+managerf.insertarUsuario("David Jimenez","admin","admin",0);
 
 License
 
