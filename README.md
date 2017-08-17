@@ -13,9 +13,9 @@ You must add an user in loginUsers
 
 managerf.insertarUsuario("David Jimenez","admin","admin",0);
 
-
-
-
+![alt text](https://raw.githubusercontent.com/davidzahid/CRM-App-Open-Source-/master/screens/s1.png)
+![alt text](https://raw.githubusercontent.com/davidzahid/CRM-App-Open-Source-/master/screens/s2.png)
+![alt text](https://raw.githubusercontent.com/davidzahid/CRM-App-Open-Source-/master/screens/s3.png)
 # Licence
 
 Copyright (c) 2017. David Zahid Jiménez Grez. All rights reserved.
