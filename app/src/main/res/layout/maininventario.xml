@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017. David Zahid Jiménez Grez. All rights reserved.
+  ~
+  ~ Creative Commons License.
+  ~
+  ~ CRM App is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your discretion) any later version.
+  ~ CRM App  is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along with CRM App. If not, see https://www.gnu.org/licenses/.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/mainHeaderIn"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+
+            android:id="@+id/btn_close_dash_inventario"
+
+            android:layout_width="40dp"
+
+            android:layout_height="40dp"
+
+            android:layout_alignParentRight="true"
+
+            android:layout_alignParentTop="true"
+
+            android:layout_gravity="right"
+            android:background="@drawable/bt_close"
+            android:text="×"
+            android:textColor="#0e0e0e" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/noteList"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.75" 
+        >
+    </ListView>
+
+    <Button
+        android:id="@+id/addNote"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addNoteButtonIn" />
+
+</LinearLayout>

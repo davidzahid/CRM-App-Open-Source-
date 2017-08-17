@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2017. David Zahid Jiménez Grez. All rights reserved.
+  ~
+  ~ Creative Commons License.
+  ~
+  ~ CRM App is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your discretion) any later version.
+  ~ CRM App  is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along with CRM App. If not, see https://www.gnu.org/licenses/.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+
+            android:id="@+id/add_note"
+
+            android:layout_width="40dp"
+
+            android:layout_height="40dp"
+
+            android:layout_alignParentRight="true"
+
+            android:layout_alignParentTop="true"
+
+            android:layout_gravity="right"
+
+            android:background="@drawable/ic_note_add_black_24dp"
+
+            android:textColor="#ff3b3b" />
+    </RelativeLayout>
+
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+
+            <ListView
+				android:id="@+id/android:list"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent" />
+
+            <TextView
+				android:id="@+id/android:empty"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/no_notes" />
+
+		</LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+

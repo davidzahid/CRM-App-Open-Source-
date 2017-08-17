@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017. David Zahid Jiménez Grez. All rights reserved.
+  ~
+  ~ Creative Commons License.
+  ~
+  ~ CRM App is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your discretion) any later version.
+  ~ CRM App  is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along with CRM App. If not, see https://www.gnu.org/licenses/.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/seccion_1"/>
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="@string/seccion_2"/>
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:icon="@drawable/ic_build_black_24dp"
+            android:title="@string/seccion_3"/>
+
+        <item
+            android:id="@+id/menu_opcion_1"
+            android:icon="@drawable/ic_note_add_black_24dp"
+            android:title="@string/opcion_1"/>
+
+        <item
+            android:id="@+id/menu_opcion_2"
+            android:icon="@drawable/ic_phonelink_lock_black_24dp"
+            android:title="@string/opcion_2"/>
+
+        <item
+            android:id="@+id/menu_seccion_0"
+            android:icon="@drawable/ic_local_shipping_black_24dp"
+            android:title="@string/seccion_0"
+        />
+
+        <item
+            android:id="@+id/menu_opcion_5"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="@string/opcion_5"/>
+
+        <item
+            android:id="@+id/menu_opcion_3"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="@string/opcion_4"/>
+
+    </group>
+    <!--
+        <item
+            android:id="@+id/navigation_subheader"
+            android:title="@string/otras_opciones">
+            <menu>
+
+                <item
+                    android:id="@+id/menu_opcion_3"
+                    android:icon="@drawable/ic_menu"
+                    android:title="@string/opcion_3"/>
+            </menu>
+        </item>-->
+    </menu>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2017. David Zahid Jiménez Grez. All rights reserved.
+  ~
+  ~ Creative Commons License.
+  ~
+  ~ CRM App is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your discretion) any later version.
+  ~ CRM App  is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along with CRM App. If not, see https://www.gnu.org/licenses/.
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorButtonNormal"
+    android:orientation="horizontal"
+    tools:context=".crud.reportes.listar_pedidos_por_cliente">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="24dp"
+
+        android:src="@drawable/ic_fab"
+        app:backgroundTint="@android:color/holo_green_light" />
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+                <Button
+                    android:id="@+id/pedidosPendientesPorCliente"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/pendiente"
+                    android:text="Pendientes"
+                    android:textColor="@android:color/background_light"
+                    android:textIsSelectable="false" />
+
+                <Button
+                    android:id="@+id/pedidosEntregadosPorCliente"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bordertext"
+                    android:text="Historial"
+                    android:textColor="@android:color/background_light"
+                    android:textIsSelectable="false" />
+
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:background="?attr/colorButtonNormal"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listPedidosPorCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10dp" />
+    </LinearLayout>
+
+    <!-- My rest of the layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Button
+
+        android:id="@+id/btn_close_dash_pedidos"
+
+        android:layout_width="40dp"
+
+        android:layout_height="40dp"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_gravity="right"
+
+        android:background="@drawable/bt_close"
+
+        android:text="×"
+        android:textColor="#0e0e0e" />
+    </RelativeLayout>
+
+</FrameLayout>

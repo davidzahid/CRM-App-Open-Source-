@@ -1,0 +1,98 @@
+<!--
+  ~ Copyright (c) 2017. David Zahid Jiménez Grez. All rights reserved.
+  ~
+  ~ Creative Commons License.
+  ~
+  ~ CRM App is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your discretion) any later version.
+  ~ CRM App  is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along with CRM App. If not, see https://www.gnu.org/licenses/.
+  -->
+
+<resources>
+    <string name="app_name">CRM App</string>
+    <string name="login">Entrar</string>
+
+
+    <!--TESTEO USAR Y BORRAR-->
+
+
+    <string name="action_settings">Ajustes</string>
+    <string name="seccion_0">Inventario</string>
+    <string name="seccion_1">Clientes</string>
+    <string name="seccion_2">Pedidos</string>
+    <string name="seccion_3">Reparaciones</string>
+    <string name="otras_opciones">Otras opciones</string>
+
+    <string name="opcion_1">Notas</string>
+    <string name="opcion_2">Contraseña</string>
+    <string name="opcion_4">Cerrar Sesión</string>
+    <string name="opcion_5">Desarrollador</string>
+
+    <string name="opcion_3">Usuarios</string>
+    <!--SERVIRA PARA AGREGAR EL NOMBRE DE USUARIO-->
+
+    <string name="menu_abierto">Menu Abierto</string>
+    <string name="menu_cerrado">Menu Cerrado</string>
+    <string name="fragment1">Fragmento 1</string>
+    <string name="fragment2">Fragmento 2</string>
+    <string name="fragment3">Fragmento 3</string>
+
+
+    <string name="no_notes">Sin Notas</string>
+    <string name="menu_insert">Crear Nota</string>
+    <string name="menu_delete">Borrar Nota</string>
+    <string name="title">Título</string>
+    <string name="body">Contenido</string>
+    <string name="confirm">Confirmar</string>
+    <string name="edit_note">Editar Nota</string>
+    <!--TESTEO-->
+
+
+    <string name="oneNote">Visor de Nota</string>
+    <string name="addNoteButton">Nueva Nota</string>
+    <string name="mainHeader">Mis Notas</string>
+    <string name="CtxMenuHeader">Elegir una Opcion</string>
+    <string name="updateNoteButton">Actualizar Nota</string>
+    <string name="validation">Por favor llenar el campo titulo y el campo de contenido</string>
+
+    <!-- createview layout -->
+    <string name="noteTitle">Titulo</string>
+    <string name="noteContent">Contenido</string>
+    <string name="saveNoteButton">Guardar Nota</string>
+
+
+    <!-- context menu options -->
+    <string name="showNote">Mostrar Nota</string>
+    <string name="editNote">Editar Nota</string>
+    <string name="removeNote">Eliminar Nota</string>
+
+    <string name="titleHint">Introducir Titulo Aqui</string>
+
+
+
+
+
+
+    <string name="oneNoteIn">Visor de Inventario</string>
+    <string name="addNoteButtonIn">Nuevo</string>
+    <string name="mainHeaderIn">Mi Inventario</string>
+    <string name="CtxMenuHeaderIn">Elegir una Opcion</string>
+    <string name="updateNoteButtonIn">Actualizar</string>
+    <string name="validationIn">Por favor llenar el campo titulo y el campo de contenido</string>
+
+    <!-- createview layout -->
+    <string name="noteTitleIn">Titulo</string>
+    <string name="noteContentIn">Contenido</string>
+    <string name="saveNoteButtonIn">Guardar</string>
+
+
+    <!-- context menu options -->
+    <string name="showNoteIn">Mostrar</string>
+    <string name="editNoteIn">Editar</string>
+    <string name="removeNoteIn">Eliminar</string>
+
+    <string name="titleHintIn">Introducir Titulo Aqui</string>
+
+
+</resources>
